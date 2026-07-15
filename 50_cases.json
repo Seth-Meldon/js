@@ -1,0 +1,5807 @@
+[
+  {
+    "persons": {
+      "householdId": "FRESH-001_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-001_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Alex",
+        "lastName": "Rivera",
+        "dateOfBirth": "1997-02-14",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": false,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Georgia",
+      "statePathways": {
+        "canonicalPatternId": "OTHER_EXPANSIONS",
+        "waiversEnabled": true,
+        "coverageGroupType": "EXPANSION_ADULT",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "EXPANSION_ADULT",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "100.000000",
+          "priority": 1
+        },
+        "state": "Georgia",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_001_GA_OTHER_EXPANSION_DEMO_1"
+      },
+      "policyContextId": "FRESH-001_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-001",
+    "county": "Fulton",
+    "incomeStreams": {
+      "amount": "912.000000",
+      "earned": true,
+      "incomeId": "FRESH-001_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-001_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-001_RES1",
+      "personId": "FRESH-001_P1",
+      "value": "1224.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Georgia",
+    "households": {
+      "householdId": "FRESH-001_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-14",
+    "policyContextId": "FRESH-001_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-002_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-002_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Maya",
+          "lastName": "Lee",
+          "dateOfBirth": "1988-05-20",
+          "maritalStatus": "Married"
+        }
+      },
+      {
+        "householdId": "FRESH-002_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Spouse",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-002_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Nina",
+          "lastName": "Lee",
+          "dateOfBirth": "1990-08-10",
+          "maritalStatus": "Married"
+        }
+      },
+      {
+        "householdId": "FRESH-002_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-002_P3",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Grace",
+          "lastName": "Lee",
+          "dateOfBirth": "2020-04-05",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "relationships": {
+      "personIdFrom": "FRESH-002_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-002_P3",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-002_REL1"
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 3,
+        "fplYear": 2026,
+        "annualFPL": "26650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Massachusetts",
+      "statePathways": {
+        "canonicalPatternId": "CHILD_MAGI",
+        "waiversEnabled": true,
+        "coverageGroupType": "CHILD",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "CHILD",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "300.000000",
+          "appliesToAgeCategory": "Age 6-17",
+          "priority": 1
+        },
+        "state": "Massachusetts",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_002_MA_CHILD_MAGI_DEMO_1"
+      },
+      "policyContextId": "FRESH-002_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-002",
+    "county": "Suffolk",
+    "incomeStreams": [
+      {
+        "amount": "2412.000000",
+        "earned": true,
+        "incomeId": "FRESH-002_INC1",
+        "incomeType": "WAGES_SALARY",
+        "personId": "FRESH-002_P1",
+        "excludedFromMAGI": false,
+        "frequency": "MONTHLY"
+      },
+      {
+        "amount": "12.000000",
+        "earned": false,
+        "incomeId": "FRESH-002_INC2",
+        "incomeType": "OTHER",
+        "personId": "FRESH-002_P2",
+        "excludedFromMAGI": false,
+        "frequency": "MONTHLY"
+      }
+    ],
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-002_RES1",
+      "personId": "FRESH-002_P1",
+      "value": "3024.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Massachusetts",
+    "households": {
+      "householdId": "FRESH-002_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-28",
+    "policyContextId": "FRESH-002_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-003_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-003_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Henry",
+          "lastName": "Nguyen",
+          "dateOfBirth": "1985-03-12",
+          "maritalStatus": "Never married"
+        }
+      },
+      {
+        "householdId": "FRESH-003_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-003_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Drew",
+          "lastName": "Nguyen",
+          "dateOfBirth": "2016-09-02",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "relationships": {
+      "personIdFrom": "FRESH-003_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-003_P2",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-003_REL1"
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": false,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Texas",
+      "statePathways": {
+        "canonicalPatternId": "CHILD_MAGI",
+        "waiversEnabled": true,
+        "coverageGroupType": "CHILD",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "CHILD",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "138.000000",
+          "appliesToAgeCategory": "Age 6-17",
+          "priority": 1
+        },
+        "state": "Texas",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_003_TX_CHILD_MAGI_DEMO_1"
+      },
+      "policyContextId": "FRESH-003_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-003",
+    "county": "Travis",
+    "incomeStreams": {
+      "amount": "5212.000000",
+      "earned": true,
+      "incomeId": "FRESH-003_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-003_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-003_RES1",
+      "personId": "FRESH-003_P1",
+      "value": "8024.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Texas",
+    "households": {
+      "householdId": "FRESH-003_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-11",
+    "policyContextId": "FRESH-003_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-004_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "expectedChildren": 1,
+        "status": "pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-004_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Casey",
+        "lastName": "Johnson",
+        "dateOfBirth": "1998-10-20",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Illinois",
+      "statePathways": {
+        "canonicalPatternId": "PREGNANCY_MAGI",
+        "pregnancyRequired": true,
+        "waiversEnabled": true,
+        "coverageGroupType": "PREGNANT_PERSON",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PREGNANT_PERSON",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "220.000000",
+          "priority": 1
+        },
+        "state": "Illinois",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_004_IL_PREGNANCY_MAGI_DEMO_1"
+      },
+      "policyContextId": "FRESH-004_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-004",
+    "county": "Cook",
+    "incomeStreams": {
+      "amount": "2112.000000",
+      "earned": true,
+      "incomeId": "FRESH-004_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-004_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-004_RES1",
+      "personId": "FRESH-004_P1",
+      "value": "2524.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Illinois",
+    "households": {
+      "householdId": "FRESH-004_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-25",
+    "policyContextId": "FRESH-004_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-005_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-005_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Oliver",
+          "lastName": "Brooks",
+          "dateOfBirth": "1992-07-11",
+          "maritalStatus": "Never married"
+        }
+      },
+      {
+        "householdId": "FRESH-005_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-005_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Sophia",
+          "lastName": "Brooks",
+          "dateOfBirth": "2022-12-02",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "relationships": {
+      "personIdFrom": "FRESH-005_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-005_P2",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-005_REL1"
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": false,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Georgia",
+      "statePathways": {
+        "canonicalPatternId": "PARENT_CARETAKER_MAGI",
+        "waiversEnabled": true,
+        "coverageGroupType": "PARENT_CARETAKER",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PARENT_CARETAKER",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "40.000000",
+          "priority": 1
+        },
+        "state": "Georgia",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_005_GA_PARENT_CARETAKER_DEMO_1"
+      },
+      "policyContextId": "FRESH-005_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-005",
+    "county": "Fulton",
+    "incomeStreams": {
+      "amount": "412.000000",
+      "earned": true,
+      "incomeId": "FRESH-005_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-005_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-005_RES1",
+      "personId": "FRESH-005_P1",
+      "value": "524.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Georgia",
+    "households": {
+      "householdId": "FRESH-005_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-10",
+    "policyContextId": "FRESH-005_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-006_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": true,
+        "ssiStatus": "SSI"
+      },
+      "personId": "FRESH-006_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Logan",
+        "lastName": "Miller",
+        "dateOfBirth": "1954-01-15",
+        "maritalStatus": "Widowed"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Massachusetts",
+      "statePathways": {
+        "canonicalPatternId": "ABD_SSI_RELATED",
+        "waiversEnabled": true,
+        "coverageGroupType": "AGED_OR_DISABLED",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "AGED_OR_DISABLED",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "100.000000",
+          "priority": 1
+        },
+        "state": "Massachusetts",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_006_MA_ABD_SSI_RELATED_DEMO_1"
+      },
+      "policyContextId": "FRESH-006_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-006",
+    "county": "Suffolk",
+    "incomeStreams": {
+      "amount": "955.000000",
+      "earned": false,
+      "incomeId": "FRESH-006_INC1",
+      "incomeType": "SSI_CASH_BENEFIT",
+      "personId": "FRESH-006_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-006_RES1",
+      "personId": "FRESH-006_P1",
+      "value": "1524.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Massachusetts",
+    "households": {
+      "householdId": "FRESH-006_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-24",
+    "policyContextId": "FRESH-006_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-007_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": true,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-007_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Isla",
+        "lastName": "Garcia",
+        "dateOfBirth": "1951-06-06",
+        "maritalStatus": "Married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "California",
+      "statePathways": {
+        "canonicalPatternId": "MSP",
+        "waiversEnabled": true,
+        "coverageGroupType": "MEDICARE_BENEFICIARY",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": true,
+          "appliesToPopulation": "MEDICARE_BENEFICIARY",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "100.000000",
+          "priority": 1
+        },
+        "state": "California",
+        "canonicalSubPathway": "MSP_QMB",
+        "benefitScope": "COST_SHARING_ASSISTANCE",
+        "stateProgramCode": "FRESH_007_CA_MSP_QMB_DEMO_1"
+      },
+      "policyContextId": "FRESH-007_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-007",
+    "county": "Orange",
+    "incomeStreams": {
+      "amount": "1012.000000",
+      "earned": false,
+      "incomeId": "FRESH-007_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-007_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-007_RES1",
+      "personId": "FRESH-007_P1",
+      "value": "1824.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "California",
+    "households": {
+      "householdId": "FRESH-007_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-07",
+    "policyContextId": "FRESH-007_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-008_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-008_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Helen",
+        "lastName": "Patel",
+        "dateOfBirth": "1982-11-18",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "WORKING_DISABLED_BUYIN",
+        "waiversEnabled": true,
+        "coverageGroupType": "WORKING_DISABLED_ADULT",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "WORKING_DISABLED_ADULT",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "250.000000",
+          "priority": 1
+        },
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_008_OH_WORKING_DISABLED_BUYIN_DEMO_1"
+      },
+      "policyContextId": "FRESH-008_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-008",
+    "county": "Franklin",
+    "incomeStreams": {
+      "amount": "3012.000000",
+      "earned": true,
+      "incomeId": "FRESH-008_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-008_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-008_RES1",
+      "personId": "FRESH-008_P1",
+      "value": "5024.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-008_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-21",
+    "policyContextId": "FRESH-008_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-009_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": true,
+        "inFosterCareAtAge18OrAgingOut": true,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-009_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Mila",
+        "lastName": "Thomas",
+        "dateOfBirth": "2002-09-15",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Washington",
+      "statePathways": {
+        "canonicalPatternId": "FORMER_FOSTER_YOUTH",
+        "waiversEnabled": true,
+        "coverageGroupType": "FORMER_FOSTER_YOUTH",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "FORMER_FOSTER_YOUTH",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": false,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "999.000000",
+          "priority": 1
+        },
+        "state": "Washington",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_009_WA_FORMER_FOSTER_YOUTH_DEMO_1"
+      },
+      "policyContextId": "FRESH-009_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-009",
+    "county": "King",
+    "incomeStreams": {
+      "amount": "2812.000000",
+      "earned": true,
+      "incomeId": "FRESH-009_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-009_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-009_RES1",
+      "personId": "FRESH-009_P1",
+      "value": "2524.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Washington",
+    "households": {
+      "householdId": "FRESH-009_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-05-05",
+    "policyContextId": "FRESH-009_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-010_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": true,
+        "activeTbRequiringTreatment": true,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": true,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-010_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Zoe",
+        "lastName": "Morgan",
+        "dateOfBirth": "1976-01-10",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "New York",
+      "statePathways": [
+        {
+          "canonicalPatternId": "BCC_TREATMENT",
+          "waiversEnabled": true,
+          "coverageGroupType": "BREAST_CERVICAL_CANCER",
+          "resourceTestApplies": false,
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "BREAST_CERVICAL_CANCER",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": false,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "999.000000",
+            "priority": 1
+          },
+          "state": "New York",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_010_NY_BCC_TREATMENT_DEMO_1"
+        },
+        {
+          "canonicalPatternId": "TB_ONLY",
+          "waiversEnabled": true,
+          "coverageGroupType": "TB_PATIENT",
+          "resourceTestApplies": false,
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "TB_PATIENT",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": false,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "999.000000",
+            "priority": 1
+          },
+          "state": "New York",
+          "benefitScope": "LIMITED_BENEFIT_TB_RELATED",
+          "stateProgramCode": "FRESH_010_NY_TB_ONLY_DEMO_2"
+        },
+        {
+          "canonicalPatternId": "HCBS_SIL",
+          "waiversEnabled": true,
+          "coverageGroupType": "LTSS_NEEDS",
+          "resourceTestApplies": false,
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "LTSS_NEEDS",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "300.000000",
+            "priority": 1
+          },
+          "state": "New York",
+          "benefitScope": "WAIVER_LTSS",
+          "stateProgramCode": "FRESH_010_NY_HCBS_SIL_DEMO_3"
+        }
+      ],
+      "policyContextId": "FRESH-010_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-010",
+    "county": "Albany",
+    "incomeStreams": {
+      "amount": "1212.000000",
+      "earned": false,
+      "incomeId": "FRESH-010_INC1",
+      "incomeType": "SSDI_DISABILITY_INSURANCE",
+      "personId": "FRESH-010_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-010_RES1",
+      "personId": "FRESH-010_P1",
+      "value": "1024.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "New York",
+    "households": {
+      "householdId": "FRESH-010_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-05-19",
+    "policyContextId": "FRESH-010_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-011_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "postpartum"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-011_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Owen",
+        "lastName": "Clark",
+        "dateOfBirth": "1990-05-14",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Colorado",
+      "statePathways": {
+        "canonicalPatternId": "PREGNANCY_MAGI",
+        "pregnancyRequired": true,
+        "coverageGroupType": "PREGNANT_PERSON",
+        "state": "Colorado",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_011_CO_POSTPARTUM_DEMO_1"
+      },
+      "policyContextId": "FRESH-011_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-011",
+    "county": "Denver",
+    "incomeStreams": {
+      "amount": "1812.000000",
+      "earned": true,
+      "incomeId": "FRESH-011_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-011_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-011_RES1",
+      "personId": "FRESH-011_P1",
+      "value": "1024.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Colorado",
+    "households": {
+      "householdId": "FRESH-011_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-02",
+    "policyContextId": "FRESH-011_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-012_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": true,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-012_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Leah",
+        "lastName": "Young",
+        "dateOfBirth": "1988-04-12",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Florida",
+      "statePathways": {
+        "canonicalPatternId": "TB_ONLY",
+        "coverageGroupType": "TB_PATIENT",
+        "state": "Florida",
+        "benefitScope": "LIMITED_BENEFIT_TB_RELATED",
+        "stateProgramCode": "FRESH_012_FL_TB_ONLY_DEMO_1"
+      },
+      "policyContextId": "FRESH-012_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-012",
+    "county": "Miami-Dade",
+    "incomeStreams": {
+      "amount": "1212.000000",
+      "earned": true,
+      "incomeId": "FRESH-012_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-012_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-012_RES1",
+      "personId": "FRESH-012_P1",
+      "value": "524.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Florida",
+    "households": {
+      "householdId": "FRESH-012_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-16",
+    "policyContextId": "FRESH-012_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-013_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "personId": "FRESH-013_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Evan",
+        "lastName": "Stone",
+        "dateOfBirth": "2015-03-01",
+        "maritalStatus": "Never married"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Michigan",
+      "statePathways": {
+        "canonicalPatternId": "CHILD_DISABILITY_HOMECARE",
+        "coverageGroupType": "CHILD_WITH_DISABILITY",
+        "state": "Michigan",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_013_MI_CHILD_DISABILITY_DEMO_1"
+      },
+      "policyContextId": "FRESH-013_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-013",
+    "county": "Wayne",
+    "incomeStreams": {
+      "amount": "12.000000",
+      "earned": false,
+      "incomeId": "FRESH-013_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-013_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-013_RES1",
+      "personId": "FRESH-013_P1",
+      "value": "324.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Michigan",
+    "households": {
+      "householdId": "FRESH-013_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-30",
+    "policyContextId": "FRESH-013_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-014_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": true,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": true,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-014_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Elena",
+        "lastName": "Adams",
+        "dateOfBirth": "1989-08-01",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Arizona",
+      "statePathways": {
+        "canonicalPatternId": "HCBS_SIL",
+        "coverageGroupType": "LTSS_NEEDS",
+        "state": "Arizona",
+        "benefitScope": "WAIVER_LTSS",
+        "stateProgramCode": "FRESH_014_AZ_HCBS_DEMO_1"
+      },
+      "policyContextId": "FRESH-014_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-014",
+    "county": "Maricopa",
+    "incomeStreams": {
+      "amount": "1112.000000",
+      "earned": false,
+      "incomeId": "FRESH-014_INC1",
+      "incomeType": "SSDI_DISABILITY_INSURANCE",
+      "personId": "FRESH-014_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-014_RES1",
+      "personId": "FRESH-014_P1",
+      "value": "1224.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Arizona",
+    "households": {
+      "householdId": "FRESH-014_HH1",
+      "householdType": "institutionalHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-07-14",
+    "policyContextId": "FRESH-014_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-015_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "personId": "FRESH-015_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Connor",
+        "lastName": "King",
+        "dateOfBirth": "1991-02-20",
+        "maritalStatus": "Never married"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Nevada",
+      "statePathways": {
+        "canonicalPatternId": "FAMILY_PLANNING_ONLY",
+        "coverageGroupType": "FAMILY_PLANNING",
+        "state": "Nevada",
+        "benefitScope": "LIMITED_BENEFIT_FAMILY_PLANNING",
+        "stateProgramCode": "FRESH_015_NV_FAMILY_PLANNING_DEMO_1"
+      },
+      "policyContextId": "FRESH-015_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-015",
+    "county": "Clark",
+    "incomeStreams": {
+      "amount": "712.000000",
+      "earned": false,
+      "incomeId": "FRESH-015_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-015_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-015_RES1",
+      "personId": "FRESH-015_P1",
+      "value": "824.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Nevada",
+    "households": {
+      "householdId": "FRESH-015_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-14",
+    "policyContextId": "FRESH-015_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-016_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-016_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Claire",
+        "lastName": "Price",
+        "dateOfBirth": "1992-06-01",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "OTHER_EXPANSIONS",
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_016_OH_OTHER_EXPANSION_BOUNDARY_DEMO_1",
+        "coverageGroupType": "EXPANSION_ADULT",
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "EXPANSION_ADULT",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "138.000000",
+          "priority": 1
+        },
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-016_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-016",
+    "county": "Franklin",
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-016_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-28",
+    "incomeStreams": {
+      "amount": "1799.750000",
+      "earned": true,
+      "incomeId": "FRESH-016_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-016_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-016_RES1",
+      "personId": "FRESH-016_P1",
+      "value": "1200.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-016_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-017_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-017_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Ian",
+        "lastName": "Reed",
+        "dateOfBirth": "1992-06-01",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "OTHER_EXPANSIONS",
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_017_OH_OTHER_EXPANSION_OVER_INCOME_DEMO_1",
+        "coverageGroupType": "EXPANSION_ADULT",
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "EXPANSION_ADULT",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "138.000000",
+          "priority": 1
+        },
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-017_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-017",
+    "county": "Franklin",
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-017_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-11",
+    "incomeStreams": {
+      "amount": "1900.000000",
+      "earned": true,
+      "incomeId": "FRESH-017_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-017_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-017_RES1",
+      "personId": "FRESH-017_P1",
+      "value": "1200.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-017_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-018_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "expectedChildren": 1,
+        "status": "pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-018_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Willow",
+        "lastName": "Cole",
+        "dateOfBirth": "1998-10-20",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Illinois",
+      "statePathways": {
+        "canonicalPatternId": "PREGNANCY_MAGI",
+        "pregnancyRequired": true,
+        "waiversEnabled": true,
+        "coverageGroupType": "PREGNANT_PERSON",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PREGNANT_PERSON",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "220.000000",
+          "priority": 1
+        },
+        "state": "Illinois",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_018_IL_PREGNANCY_MAGI_OVER_INCOME_DEMO_1"
+      },
+      "policyContextId": "FRESH-018_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-018",
+    "county": "Cook",
+    "incomeStreams": {
+      "amount": "4000.000000",
+      "earned": true,
+      "incomeId": "FRESH-018_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-018_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-018_RES1",
+      "personId": "FRESH-018_P1",
+      "value": "2500.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Illinois",
+    "households": {
+      "householdId": "FRESH-018_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-25",
+    "policyContextId": "FRESH-018_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-019_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "postpartum"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-019_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Parker",
+        "lastName": "Shaw",
+        "dateOfBirth": "1990-05-14",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Colorado",
+      "statePathways": [
+        {
+          "canonicalPatternId": "PREGNANCY_MAGI",
+          "state": "Colorado",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_019_CO_POSTPARTUM_MAGI_DEMO_1",
+          "coverageGroupType": "PREGNANT_PERSON",
+          "pregnancyRequired": true,
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "POSTPARTUM",
+            "appliesToHouseholdType": "taxHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "220.000000",
+            "priority": 1
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        },
+        {
+          "canonicalPatternId": "FAMILY_PLANNING_ONLY",
+          "state": "Colorado",
+          "benefitScope": "LIMITED_BENEFIT_FAMILY_PLANNING",
+          "stateProgramCode": "FRESH_019_CO_FAMILY_PLANNING_POSTPARTUM_DEMO_2",
+          "coverageGroupType": "FAMILY_PLANNING",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "POSTPARTUM",
+            "appliesToHouseholdType": "taxHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "200.000000",
+            "priority": 1
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        }
+      ],
+      "policyContextId": "FRESH-019_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-019",
+    "county": "Denver",
+    "incomeStreams": {
+      "amount": "1212.000000",
+      "earned": true,
+      "incomeId": "FRESH-019_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-019_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-019_RES1",
+      "personId": "FRESH-019_P1",
+      "value": "1024.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Colorado",
+    "households": {
+      "householdId": "FRESH-019_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-10",
+    "policyContextId": "FRESH-019_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-020_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-020_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Skye",
+          "lastName": "Bennett",
+          "dateOfBirth": "1992-07-11",
+          "maritalStatus": "Never married"
+        }
+      },
+      {
+        "householdId": "FRESH-020_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-020_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Gavin",
+          "lastName": "Bennett",
+          "dateOfBirth": "2022-12-01",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "relationships": {
+      "personIdFrom": "FRESH-020_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-020_P2",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-020_REL1"
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": false,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Georgia",
+      "statePathways": {
+        "canonicalPatternId": "PARENT_CARETAKER_MAGI",
+        "waiversEnabled": true,
+        "coverageGroupType": "PARENT_CARETAKER",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PARENT_CARETAKER",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "40.000000",
+          "priority": 1
+        },
+        "state": "Georgia",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_020_GA_PARENT_CARETAKER_OVER_INCOME_DEMO_1"
+      },
+      "policyContextId": "FRESH-020_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-020",
+    "county": "Fulton",
+    "incomeStreams": {
+      "amount": "1200.000000",
+      "earned": true,
+      "incomeId": "FRESH-020_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-020_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-020_RES1",
+      "personId": "FRESH-020_P1",
+      "value": "500.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Georgia",
+    "households": {
+      "householdId": "FRESH-020_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-24",
+    "policyContextId": "FRESH-020_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-021_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-021_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Micah",
+        "lastName": "Foster",
+        "dateOfBirth": "1957-01-15",
+        "maritalStatus": "Widowed"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Massachusetts",
+      "statePathways": {
+        "canonicalPatternId": "ABD_SSI_RELATED",
+        "state": "Massachusetts",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_021_MA_ABD_AGED_NON_SSI_DEMO_1",
+        "coverageGroupType": "AGED_OR_DISABLED",
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "AGED_OR_DISABLED",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "75.000000",
+          "priority": 1,
+          "appliesToAgeCategory": "Age 65-125"
+        },
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-021_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-021",
+    "county": "Suffolk",
+    "state": "Massachusetts",
+    "households": {
+      "householdId": "FRESH-021_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-07",
+    "incomeStreams": {
+      "amount": "900.000000",
+      "earned": false,
+      "incomeId": "FRESH-021_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-021_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-021_RES1",
+      "personId": "FRESH-021_P1",
+      "value": "1500.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-021_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-022_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-022_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Elise",
+        "lastName": "Diaz",
+        "dateOfBirth": "1984-03-22",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Massachusetts",
+      "statePathways": {
+        "canonicalPatternId": "ABD_SSI_RELATED",
+        "state": "Massachusetts",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_022_MA_ABD_DISABLED_OVER_INCOME_DEMO_1",
+        "coverageGroupType": "AGED_OR_DISABLED",
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "AGED_OR_DISABLED",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "75.000000",
+          "priority": 1
+        },
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-022_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-022",
+    "county": "Suffolk",
+    "state": "Massachusetts",
+    "households": {
+      "householdId": "FRESH-022_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-21",
+    "incomeStreams": {
+      "amount": "1200.000000",
+      "earned": false,
+      "incomeId": "FRESH-022_INC1",
+      "incomeType": "SSDI_DISABILITY_INSURANCE",
+      "personId": "FRESH-022_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-022_RES1",
+      "personId": "FRESH-022_P1",
+      "value": "1500.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-022_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-023_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": true,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-023_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Simon",
+        "lastName": "Murphy",
+        "dateOfBirth": "1951-06-06",
+        "maritalStatus": "Married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "California",
+      "statePathways": {
+        "canonicalPatternId": "MSP",
+        "waiversEnabled": true,
+        "coverageGroupType": "MEDICARE_BENEFICIARY",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": true,
+          "appliesToPopulation": "MEDICARE_BENEFICIARY",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "120.000000",
+          "priority": 1
+        },
+        "state": "California",
+        "canonicalSubPathway": "MSP_SLMB",
+        "benefitScope": "COST_SHARING_ASSISTANCE",
+        "stateProgramCode": "FRESH_023_CA_MSP_SLMB_DEMO_1"
+      },
+      "policyContextId": "FRESH-023_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-023",
+    "county": "Orange",
+    "incomeStreams": {
+      "amount": "1500.000000",
+      "earned": false,
+      "incomeId": "FRESH-023_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-023_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-023_RES1",
+      "personId": "FRESH-023_P1",
+      "value": "1800.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "California",
+    "households": {
+      "householdId": "FRESH-023_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-05-05",
+    "policyContextId": "FRESH-023_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-024_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-024_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Naomi",
+        "lastName": "Jenkins",
+        "dateOfBirth": "1982-11-18",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "WORKING_DISABLED_BUYIN",
+        "waiversEnabled": true,
+        "coverageGroupType": "WORKING_DISABLED_ADULT",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "WORKING_DISABLED_ADULT",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "250.000000",
+          "priority": 1
+        },
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_024_OH_WORKING_DISABLED_OVER_INCOME_DEMO_1"
+      },
+      "policyContextId": "FRESH-024_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-024",
+    "county": "Franklin",
+    "incomeStreams": {
+      "amount": "4000.000000",
+      "earned": true,
+      "incomeId": "FRESH-024_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-024_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-024_RES1",
+      "personId": "FRESH-024_P1",
+      "value": "5000.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-024_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-05-19",
+    "policyContextId": "FRESH-024_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-025_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": true,
+        "inFosterCareAtAge18OrAgingOut": true,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-025_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Xavier",
+        "lastName": "Long",
+        "dateOfBirth": "1998-09-15",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Washington",
+      "statePathways": {
+        "canonicalPatternId": "FORMER_FOSTER_YOUTH",
+        "waiversEnabled": true,
+        "coverageGroupType": "FORMER_FOSTER_YOUTH",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "FORMER_FOSTER_YOUTH",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": false,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "999.000000",
+          "priority": 1
+        },
+        "state": "Washington",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_025_WA_FORMER_FOSTER_YOUTH_AGE_OUT_DEMO_1"
+      },
+      "policyContextId": "FRESH-025_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-025",
+    "county": "King",
+    "incomeStreams": {
+      "amount": "2800.000000",
+      "earned": true,
+      "incomeId": "FRESH-025_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-025_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-025_RES1",
+      "personId": "FRESH-025_P1",
+      "value": "2500.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Washington",
+    "households": {
+      "householdId": "FRESH-025_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-02",
+    "policyContextId": "FRESH-025_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-026_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": true,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-026_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Mara",
+        "lastName": "Fisher",
+        "dateOfBirth": "2011-07-04",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Oregon",
+      "statePathways": {
+        "canonicalPatternId": "FOSTER_CARE_ADOPTION_GUARDIAN",
+        "state": "Oregon",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_026_OR_FOSTER_CARE_ADOPTION_GUARDIAN_CURRENT_DEMO_1",
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-026_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-026",
+    "county": "Multnomah",
+    "state": "Oregon",
+    "households": {
+      "householdId": "FRESH-026_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-16",
+    "incomeStreams": {
+      "amount": "12.000000",
+      "earned": false,
+      "incomeId": "FRESH-026_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-026_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-026_RES1",
+      "personId": "FRESH-026_P1",
+      "value": "324.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-026_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-027_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": true,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-027_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Asher",
+        "lastName": "Perry",
+        "dateOfBirth": "2017-03-02",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Oregon",
+      "statePathways": {
+        "canonicalPatternId": "FOSTER_CARE_ADOPTION_GUARDIAN",
+        "state": "Oregon",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_027_OR_FOSTER_CARE_ADOPTION_GUARDIAN_TITLE_IVE_DEMO_1",
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-027_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-027",
+    "county": "Multnomah",
+    "state": "Oregon",
+    "households": {
+      "householdId": "FRESH-027_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-30",
+    "incomeStreams": {
+      "amount": "12.000000",
+      "earned": false,
+      "incomeId": "FRESH-027_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-027_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-027_RES1",
+      "personId": "FRESH-027_P1",
+      "value": "324.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-027_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-028_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-028_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Keira",
+          "lastName": "Powell",
+          "dateOfBirth": "1987-05-09",
+          "maritalStatus": "Never married"
+        }
+      },
+      {
+        "householdId": "FRESH-028_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-028_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Reid",
+          "lastName": "Powell",
+          "dateOfBirth": "2014-02-02",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "policyContexts": [
+      {
+        "fPLTable": {
+          "stateGroup": "48_STATES_DC",
+          "householdSize": 2,
+          "fplYear": 2026,
+          "annualFPL": "21150.000000"
+        },
+        "waiversEnabled": true,
+        "expansionState": true,
+        "medicallyNeedyEnabled": false,
+        "effectiveStart": "2025-01-01",
+        "resourceTestApplies": false,
+        "fplYear": 2026,
+        "state": "Virginia",
+        "statePathways": {
+          "canonicalPatternId": "CHILD_MAGI",
+          "state": "Virginia",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_028_VA_CHILD_MAGI_EXPIRED_DEMO_1",
+          "coverageGroupType": "CHILD",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "CHILD",
+            "appliesToHouseholdType": "taxHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "100.000000",
+            "priority": 1,
+            "appliesToAgeCategory": "Age 6-17"
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        },
+        "policyContextId": "FRESH-028_PC1",
+        "effectiveEnd": "2025-12-31",
+        "policyVersionLabel": "2025.demo"
+      },
+      {
+        "fPLTable": {
+          "stateGroup": "48_STATES_DC",
+          "householdSize": 2,
+          "fplYear": 2026,
+          "annualFPL": "21150.000000"
+        },
+        "waiversEnabled": true,
+        "expansionState": true,
+        "medicallyNeedyEnabled": false,
+        "effectiveStart": "2026-01-01",
+        "resourceTestApplies": false,
+        "fplYear": 2026,
+        "state": "Virginia",
+        "statePathways": {
+          "canonicalPatternId": "CHILD_MAGI",
+          "state": "Virginia",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_028_VA_CHILD_MAGI_CURRENT_DEMO_1",
+          "coverageGroupType": "CHILD",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "CHILD",
+            "appliesToHouseholdType": "taxHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "300.000000",
+            "priority": 1,
+            "appliesToAgeCategory": "Age 6-17"
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        },
+        "policyContextId": "FRESH-028_PC2",
+        "effectiveEnd": null,
+        "policyVersionLabel": "2026.demo"
+      }
+    ],
+    "caseId": "FRESH-028",
+    "county": "Fairfax",
+    "state": "Virginia",
+    "households": {
+      "householdId": "FRESH-028_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-07-14",
+    "incomeStreams": {
+      "amount": "2500.000000",
+      "earned": true,
+      "incomeId": "FRESH-028_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-028_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-028_RES1",
+      "personId": "FRESH-028_P1",
+      "value": "700.000000",
+      "resourceType": "bankAccount"
+    },
+    "relationships": {
+      "personIdFrom": "FRESH-028_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-028_P2",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-028_REL1"
+    },
+    "policyContextId": "FRESH-028_PC2"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-029_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": true,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-029_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Max",
+        "lastName": "Barnes",
+        "dateOfBirth": "1950-04-10",
+        "maritalStatus": "Married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "California",
+      "statePathways": [
+        {
+          "canonicalPatternId": "ABD_SSI_RELATED",
+          "state": "California",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_029_CA_ABD_AGED_DEMO_1",
+          "coverageGroupType": "AGED_OR_DISABLED",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "AGED_OR_DISABLED",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "75.000000",
+            "priority": 1,
+            "appliesToAgeCategory": "Age 65-125"
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        },
+        {
+          "canonicalPatternId": "MSP",
+          "state": "California",
+          "benefitScope": "COST_SHARING_ASSISTANCE",
+          "stateProgramCode": "FRESH_029_CA_MSP_QMB_OVERLAP_DEMO_2",
+          "coverageGroupType": "MEDICARE_BENEFICIARY",
+          "canonicalSubPathway": "MSP_QMB",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": true,
+            "appliesToPopulation": "MEDICARE_BENEFICIARY",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "100.000000",
+            "priority": 1
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        }
+      ],
+      "policyContextId": "FRESH-029_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-029",
+    "county": "Orange",
+    "state": "California",
+    "households": {
+      "householdId": "FRESH-029_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-14",
+    "incomeStreams": {
+      "amount": "800.000000",
+      "earned": false,
+      "incomeId": "FRESH-029_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-029_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-029_RES1",
+      "personId": "FRESH-029_P1",
+      "value": "1800.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-029_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-030_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-030_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Iris",
+        "lastName": "Coleman",
+        "dateOfBirth": "2015-03-01",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Michigan",
+      "statePathways": [
+        {
+          "canonicalPatternId": "CHILD_DISABILITY_HOMECARE",
+          "state": "Michigan",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_030_MI_CHILD_DISABILITY_HOMECARE_DEMO_1",
+          "coverageGroupType": "CHILD_WITH_DISABILITY",
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        },
+        {
+          "canonicalPatternId": "ABD_SSI_RELATED",
+          "state": "Michigan",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_030_MI_ABD_SHOULD_NOT_FIRE_DEMO_2",
+          "coverageGroupType": "AGED_OR_DISABLED",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "AGED_OR_DISABLED",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "75.000000",
+            "priority": 1,
+            "appliesToAgeCategory": "Age 6-17"
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        }
+      ],
+      "policyContextId": "FRESH-030_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-030",
+    "county": "Wayne",
+    "state": "Michigan",
+    "households": {
+      "householdId": "FRESH-030_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-28",
+    "incomeStreams": {
+      "amount": "12.000000",
+      "earned": false,
+      "incomeId": "FRESH-030_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-030_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-030_RES1",
+      "personId": "FRESH-030_P1",
+      "value": "324.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-030_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-031_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-031_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Rowan",
+          "lastName": "Ward",
+          "dateOfBirth": "1988-05-29",
+          "maritalStatus": "Married"
+        }
+      },
+      {
+        "householdId": "FRESH-031_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Spouse",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-031_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Stella",
+          "lastName": "Ward",
+          "dateOfBirth": "1990-08-19",
+          "maritalStatus": "Married"
+        }
+      },
+      {
+        "householdId": "FRESH-031_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-031_P3",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Kai",
+          "lastName": "Ward",
+          "dateOfBirth": "2020-04-14",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "relationships": {
+      "personIdFrom": "FRESH-031_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-031_P3",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-031_REL1"
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 3,
+        "fplYear": 2026,
+        "annualFPL": "26650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Massachusetts",
+      "statePathways": {
+        "canonicalPatternId": "CHILD_MAGI",
+        "waiversEnabled": true,
+        "coverageGroupType": "CHILD",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "CHILD",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "300.000000",
+          "appliesToAgeCategory": "Age 6-17",
+          "priority": 1
+        },
+        "state": "Massachusetts",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_031_MA_CHILD_MAGI_DEMO_1"
+      },
+      "policyContextId": "FRESH-031_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-031",
+    "county": "Middlesex",
+    "incomeStreams": [
+      {
+        "amount": "2392.000000",
+        "earned": true,
+        "incomeId": "FRESH-031_INC1",
+        "incomeType": "WAGES_SALARY",
+        "personId": "FRESH-031_P1",
+        "excludedFromMAGI": false,
+        "frequency": "MONTHLY"
+      },
+      {
+        "amount": "0.000000",
+        "earned": false,
+        "incomeId": "FRESH-031_INC2",
+        "incomeType": "OTHER",
+        "personId": "FRESH-031_P2",
+        "excludedFromMAGI": false,
+        "frequency": "MONTHLY"
+      }
+    ],
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-031_RES1",
+      "personId": "FRESH-031_P1",
+      "value": "2984.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Massachusetts",
+    "households": {
+      "householdId": "FRESH-031_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-11",
+    "policyContextId": "FRESH-031_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-032_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "expectedChildren": 1,
+        "status": "pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-032_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Ari",
+        "lastName": "Hudson",
+        "dateOfBirth": "1998-10-29",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Illinois",
+      "statePathways": {
+        "canonicalPatternId": "PREGNANCY_MAGI",
+        "pregnancyRequired": true,
+        "waiversEnabled": true,
+        "coverageGroupType": "PREGNANT_PERSON",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PREGNANT_PERSON",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "220.000000",
+          "priority": 1
+        },
+        "state": "Illinois",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_032_IL_PREGNANCY_MAGI_DEMO_1"
+      },
+      "policyContextId": "FRESH-032_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-032",
+    "county": "DuPage",
+    "incomeStreams": {
+      "amount": "2092.000000",
+      "earned": true,
+      "incomeId": "FRESH-032_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-032_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-032_RES1",
+      "personId": "FRESH-032_P1",
+      "value": "2484.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Illinois",
+    "households": {
+      "householdId": "FRESH-032_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-25",
+    "policyContextId": "FRESH-032_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-033_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-033_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Taylor",
+          "lastName": "Carter",
+          "dateOfBirth": "1992-07-20",
+          "maritalStatus": "Never married"
+        }
+      },
+      {
+        "householdId": "FRESH-033_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-033_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Maya",
+          "lastName": "Carter",
+          "dateOfBirth": "2022-12-11",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "relationships": {
+      "personIdFrom": "FRESH-033_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-033_P2",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-033_REL1"
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": false,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Georgia",
+      "statePathways": {
+        "canonicalPatternId": "PARENT_CARETAKER_MAGI",
+        "waiversEnabled": true,
+        "coverageGroupType": "PARENT_CARETAKER",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PARENT_CARETAKER",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "40.000000",
+          "priority": 1
+        },
+        "state": "Georgia",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_033_GA_PARENT_CARETAKER_DEMO_1"
+      },
+      "policyContextId": "FRESH-033_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-033",
+    "county": "DeKalb",
+    "incomeStreams": {
+      "amount": "392.000000",
+      "earned": true,
+      "incomeId": "FRESH-033_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-033_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-033_RES1",
+      "personId": "FRESH-033_P1",
+      "value": "484.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Georgia",
+    "households": {
+      "householdId": "FRESH-033_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-10",
+    "policyContextId": "FRESH-033_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-034_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": true,
+        "ssiStatus": "SSI"
+      },
+      "personId": "FRESH-034_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Grace",
+        "lastName": "Sullivan",
+        "dateOfBirth": "1954-01-24",
+        "maritalStatus": "Widowed"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Massachusetts",
+      "statePathways": {
+        "canonicalPatternId": "ABD_SSI_RELATED",
+        "waiversEnabled": true,
+        "coverageGroupType": "AGED_OR_DISABLED",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "AGED_OR_DISABLED",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "100.000000",
+          "priority": 1
+        },
+        "state": "Massachusetts",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_034_MA_ABD_SSI_RELATED_DEMO_1"
+      },
+      "policyContextId": "FRESH-034_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-034",
+    "county": "Middlesex",
+    "incomeStreams": {
+      "amount": "935.000000",
+      "earned": false,
+      "incomeId": "FRESH-034_INC1",
+      "incomeType": "SSI_CASH_BENEFIT",
+      "personId": "FRESH-034_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-034_RES1",
+      "personId": "FRESH-034_P1",
+      "value": "1484.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Massachusetts",
+    "households": {
+      "householdId": "FRESH-034_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-24",
+    "policyContextId": "FRESH-034_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-035_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": true,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-035_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Avery",
+        "lastName": "Bishop",
+        "dateOfBirth": "1951-06-15",
+        "maritalStatus": "Married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "California",
+      "statePathways": {
+        "canonicalPatternId": "MSP",
+        "waiversEnabled": true,
+        "coverageGroupType": "MEDICARE_BENEFICIARY",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": true,
+          "appliesToPopulation": "MEDICARE_BENEFICIARY",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "100.000000",
+          "priority": 1
+        },
+        "state": "California",
+        "canonicalSubPathway": "MSP_QMB",
+        "benefitScope": "COST_SHARING_ASSISTANCE",
+        "stateProgramCode": "FRESH_035_CA_MSP_QMB_DEMO_1"
+      },
+      "policyContextId": "FRESH-035_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-035",
+    "county": "Los Angeles",
+    "incomeStreams": {
+      "amount": "992.000000",
+      "earned": false,
+      "incomeId": "FRESH-035_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-035_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-035_RES1",
+      "personId": "FRESH-035_P1",
+      "value": "1784.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "California",
+    "households": {
+      "householdId": "FRESH-035_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-07",
+    "policyContextId": "FRESH-035_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-036_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-036_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Noah",
+        "lastName": "Ramirez",
+        "dateOfBirth": "1982-11-27",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "WORKING_DISABLED_BUYIN",
+        "waiversEnabled": true,
+        "coverageGroupType": "WORKING_DISABLED_ADULT",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "WORKING_DISABLED_ADULT",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "250.000000",
+          "priority": 1
+        },
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_036_OH_WORKING_DISABLED_BUYIN_DEMO_1"
+      },
+      "policyContextId": "FRESH-036_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-036",
+    "county": "Cuyahoga",
+    "incomeStreams": {
+      "amount": "2992.000000",
+      "earned": true,
+      "incomeId": "FRESH-036_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-036_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-036_RES1",
+      "personId": "FRESH-036_P1",
+      "value": "4984.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-036_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-21",
+    "policyContextId": "FRESH-036_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-037_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": true,
+        "inFosterCareAtAge18OrAgingOut": true,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-037_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Harper",
+        "lastName": "Griffin",
+        "dateOfBirth": "2002-09-24",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Washington",
+      "statePathways": {
+        "canonicalPatternId": "FORMER_FOSTER_YOUTH",
+        "waiversEnabled": true,
+        "coverageGroupType": "FORMER_FOSTER_YOUTH",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "FORMER_FOSTER_YOUTH",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": false,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "999.000000",
+          "priority": 1
+        },
+        "state": "Washington",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_037_WA_FORMER_FOSTER_YOUTH_DEMO_1"
+      },
+      "policyContextId": "FRESH-037_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-037",
+    "county": "Pierce",
+    "incomeStreams": {
+      "amount": "2792.000000",
+      "earned": true,
+      "incomeId": "FRESH-037_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-037_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-037_RES1",
+      "personId": "FRESH-037_P1",
+      "value": "2484.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Washington",
+    "households": {
+      "householdId": "FRESH-037_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-05-05",
+    "policyContextId": "FRESH-037_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-038_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": true,
+        "activeTbRequiringTreatment": true,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": true,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-038_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Chloe",
+        "lastName": "Hayes",
+        "dateOfBirth": "1976-01-19",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "New York",
+      "statePathways": [
+        {
+          "canonicalPatternId": "BCC_TREATMENT",
+          "waiversEnabled": true,
+          "coverageGroupType": "BREAST_CERVICAL_CANCER",
+          "resourceTestApplies": false,
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "BREAST_CERVICAL_CANCER",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": false,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "999.000000",
+            "priority": 1
+          },
+          "state": "New York",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_038_NY_BCC_TREATMENT_DEMO_1"
+        },
+        {
+          "canonicalPatternId": "TB_ONLY",
+          "waiversEnabled": true,
+          "coverageGroupType": "TB_PATIENT",
+          "resourceTestApplies": false,
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "TB_PATIENT",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": false,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "999.000000",
+            "priority": 1
+          },
+          "state": "New York",
+          "benefitScope": "LIMITED_BENEFIT_TB_RELATED",
+          "stateProgramCode": "FRESH_038_NY_TB_ONLY_DEMO_2"
+        },
+        {
+          "canonicalPatternId": "HCBS_SIL",
+          "waiversEnabled": true,
+          "coverageGroupType": "LTSS_NEEDS",
+          "resourceTestApplies": false,
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "LTSS_NEEDS",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "300.000000",
+            "priority": 1
+          },
+          "state": "New York",
+          "benefitScope": "WAIVER_LTSS",
+          "stateProgramCode": "FRESH_038_NY_HCBS_SIL_DEMO_3"
+        }
+      ],
+      "policyContextId": "FRESH-038_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-038",
+    "county": "Queens",
+    "incomeStreams": {
+      "amount": "1192.000000",
+      "earned": false,
+      "incomeId": "FRESH-038_INC1",
+      "incomeType": "SSDI_DISABILITY_INSURANCE",
+      "personId": "FRESH-038_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-038_RES1",
+      "personId": "FRESH-038_P1",
+      "value": "984.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "New York",
+    "households": {
+      "householdId": "FRESH-038_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-05-19",
+    "policyContextId": "FRESH-038_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-039_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "postpartum"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-039_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Jules",
+        "lastName": "Warren",
+        "dateOfBirth": "1990-05-23",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Colorado",
+      "statePathways": {
+        "canonicalPatternId": "PREGNANCY_MAGI",
+        "pregnancyRequired": true,
+        "coverageGroupType": "PREGNANT_PERSON",
+        "state": "Colorado",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_039_CO_POSTPARTUM_DEMO_1"
+      },
+      "policyContextId": "FRESH-039_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-039",
+    "county": "Arapahoe",
+    "incomeStreams": {
+      "amount": "1792.000000",
+      "earned": true,
+      "incomeId": "FRESH-039_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-039_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-039_RES1",
+      "personId": "FRESH-039_P1",
+      "value": "984.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Colorado",
+    "households": {
+      "householdId": "FRESH-039_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-02",
+    "policyContextId": "FRESH-039_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-040_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "personId": "FRESH-040_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Aria",
+        "lastName": "Wells",
+        "dateOfBirth": "2015-03-10",
+        "maritalStatus": "Never married"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Michigan",
+      "statePathways": {
+        "canonicalPatternId": "CHILD_DISABILITY_HOMECARE",
+        "coverageGroupType": "CHILD_WITH_DISABILITY",
+        "state": "Michigan",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_040_MI_CHILD_DISABILITY_DEMO_1"
+      },
+      "policyContextId": "FRESH-040_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-040",
+    "county": "Oakland",
+    "incomeStreams": {
+      "amount": "0.000000",
+      "earned": false,
+      "incomeId": "FRESH-040_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-040_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-040_RES1",
+      "personId": "FRESH-040_P1",
+      "value": "284.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Michigan",
+    "households": {
+      "householdId": "FRESH-040_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-16",
+    "policyContextId": "FRESH-040_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-041_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-041_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Ethan",
+        "lastName": "Graham",
+        "dateOfBirth": "1992-06-01",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "OTHER_EXPANSIONS",
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_041_OH_OTHER_EXPANSION_BOUNDARY_DEMO_1",
+        "coverageGroupType": "EXPANSION_ADULT",
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "EXPANSION_ADULT",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "138.000000",
+          "priority": 1
+        },
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-041_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-041",
+    "county": "Cuyahoga",
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-041_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-06-30",
+    "incomeStreams": {
+      "amount": "1799.750000",
+      "earned": true,
+      "incomeId": "FRESH-041_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-041_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-041_RES1",
+      "personId": "FRESH-041_P1",
+      "value": "1200.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-041_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-042_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-042_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Ruby",
+        "lastName": "Hunt",
+        "dateOfBirth": "1992-06-01",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "OTHER_EXPANSIONS",
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_042_OH_OTHER_EXPANSION_OVER_INCOME_DEMO_1",
+        "coverageGroupType": "EXPANSION_ADULT",
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "EXPANSION_ADULT",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "138.000000",
+          "priority": 1
+        },
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-042_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-042",
+    "county": "Cuyahoga",
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-042_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-07-14",
+    "incomeStreams": {
+      "amount": "1900.000000",
+      "earned": true,
+      "incomeId": "FRESH-042_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-042_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-042_RES1",
+      "personId": "FRESH-042_P1",
+      "value": "1200.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-042_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-043_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "expectedChildren": 1,
+        "status": "pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-043_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Miles",
+        "lastName": "Webb",
+        "dateOfBirth": "1998-10-20",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Illinois",
+      "statePathways": {
+        "canonicalPatternId": "PREGNANCY_MAGI",
+        "pregnancyRequired": true,
+        "waiversEnabled": true,
+        "coverageGroupType": "PREGNANT_PERSON",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PREGNANT_PERSON",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "220.000000",
+          "priority": 1
+        },
+        "state": "Illinois",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_043_IL_PREGNANCY_MAGI_OVER_INCOME_DEMO_1"
+      },
+      "policyContextId": "FRESH-043_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-043",
+    "county": "DuPage",
+    "incomeStreams": {
+      "amount": "4000.000000",
+      "earned": true,
+      "incomeId": "FRESH-043_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-043_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-043_RES1",
+      "personId": "FRESH-043_P1",
+      "value": "2500.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Illinois",
+    "households": {
+      "householdId": "FRESH-043_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-14",
+    "policyContextId": "FRESH-043_PC1"
+  },
+  {
+    "persons": [
+      {
+        "householdId": "FRESH-044_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Self",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": true,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-044_P1",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": true
+        },
+        "demographic": {
+          "firstName": "Hazel",
+          "lastName": "Ford",
+          "dateOfBirth": "1992-07-11",
+          "maritalStatus": "Never married"
+        }
+      },
+      {
+        "householdId": "FRESH-044_HH1",
+        "residency": {
+          "stateResident": true,
+          "countyResident": true
+        },
+        "relationToPolicyholder": "Child",
+        "disability": {
+          "blind": false,
+          "disabled": false
+        },
+        "pregnancy": {
+          "status": "not pregnant"
+        },
+        "programIndicator": {
+          "activeBreastOrCervicalCancer": false,
+          "activeTbRequiringTreatment": false,
+          "currentFosterCare": false,
+          "eligibleForMedicareCostSharingAssistance": false,
+          "formerFosterCare": false,
+          "inFosterCareAtAge18OrAgingOut": false,
+          "institutionalized": false,
+          "isParentOrCaretaker": false,
+          "receivesTitleIVE": false,
+          "requiresInstitutionalCare": false,
+          "ssiRecipient": false,
+          "ssiStatus": null
+        },
+        "personId": "FRESH-044_P2",
+        "employment": {
+          "studentStatus": "NOT_A_STUDENT",
+          "employed": false
+        },
+        "demographic": {
+          "firstName": "Evan",
+          "lastName": "Ford",
+          "dateOfBirth": "2022-12-01",
+          "maritalStatus": "Never married"
+        }
+      }
+    ],
+    "relationships": {
+      "personIdFrom": "FRESH-044_P1",
+      "relationshipType": "parent",
+      "personIdTo": "FRESH-044_P2",
+      "livesTogether": true,
+      "caretakerType": "PARENT",
+      "financialResponsibility": true,
+      "relationshipId": "FRESH-044_REL1"
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 2,
+        "fplYear": 2026,
+        "annualFPL": "21150.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": false,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Georgia",
+      "statePathways": {
+        "canonicalPatternId": "PARENT_CARETAKER_MAGI",
+        "waiversEnabled": true,
+        "coverageGroupType": "PARENT_CARETAKER",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "PARENT_CARETAKER",
+          "appliesToHouseholdType": "taxHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "40.000000",
+          "priority": 1
+        },
+        "state": "Georgia",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_044_GA_PARENT_CARETAKER_OVER_INCOME_DEMO_1"
+      },
+      "policyContextId": "FRESH-044_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-044",
+    "county": "DeKalb",
+    "incomeStreams": {
+      "amount": "1200.000000",
+      "earned": true,
+      "incomeId": "FRESH-044_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-044_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-044_RES1",
+      "personId": "FRESH-044_P1",
+      "value": "500.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Georgia",
+    "households": {
+      "householdId": "FRESH-044_HH1",
+      "householdType": "taxHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-01-28",
+    "policyContextId": "FRESH-044_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-045_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-045_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Cole",
+        "lastName": "West",
+        "dateOfBirth": "1957-01-15",
+        "maritalStatus": "Widowed"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Massachusetts",
+      "statePathways": {
+        "canonicalPatternId": "ABD_SSI_RELATED",
+        "state": "Massachusetts",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_045_MA_ABD_AGED_NON_SSI_DEMO_1",
+        "coverageGroupType": "AGED_OR_DISABLED",
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "AGED_OR_DISABLED",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "75.000000",
+          "priority": 1,
+          "appliesToAgeCategory": "Age 65-125"
+        },
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-045_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-045",
+    "county": "Middlesex",
+    "state": "Massachusetts",
+    "households": {
+      "householdId": "FRESH-045_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-11",
+    "incomeStreams": {
+      "amount": "900.000000",
+      "earned": false,
+      "incomeId": "FRESH-045_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-045_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-045_RES1",
+      "personId": "FRESH-045_P1",
+      "value": "1500.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-045_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-046_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": true,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-046_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Sadie",
+        "lastName": "Owens",
+        "dateOfBirth": "1951-06-06",
+        "maritalStatus": "Married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "California",
+      "statePathways": {
+        "canonicalPatternId": "MSP",
+        "waiversEnabled": true,
+        "coverageGroupType": "MEDICARE_BENEFICIARY",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": true,
+          "appliesToPopulation": "MEDICARE_BENEFICIARY",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "120.000000",
+          "priority": 1
+        },
+        "state": "California",
+        "canonicalSubPathway": "MSP_SLMB",
+        "benefitScope": "COST_SHARING_ASSISTANCE",
+        "stateProgramCode": "FRESH_046_CA_MSP_SLMB_DEMO_1"
+      },
+      "policyContextId": "FRESH-046_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-046",
+    "county": "Los Angeles",
+    "incomeStreams": {
+      "amount": "1500.000000",
+      "earned": false,
+      "incomeId": "FRESH-046_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-046_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-046_RES1",
+      "personId": "FRESH-046_P1",
+      "value": "1800.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "California",
+    "households": {
+      "householdId": "FRESH-046_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-02-25",
+    "policyContextId": "FRESH-046_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-047_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": true
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-047_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": true
+      },
+      "demographic": {
+        "firstName": "Wyatt",
+        "lastName": "James",
+        "dateOfBirth": "1982-11-18",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Ohio",
+      "statePathways": {
+        "canonicalPatternId": "WORKING_DISABLED_BUYIN",
+        "waiversEnabled": true,
+        "coverageGroupType": "WORKING_DISABLED_ADULT",
+        "resourceTestApplies": false,
+        "incomeThreshold": {
+          "incomeLowerBoundApplies": false,
+          "appliesToPopulation": "WORKING_DISABLED_ADULT",
+          "appliesToHouseholdType": "medicaidHousehold",
+          "incomeUpperBoundApplies": true,
+          "minFPLPercent": "0.000000",
+          "maxFPLPercent": "250.000000",
+          "priority": 1
+        },
+        "state": "Ohio",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_047_OH_WORKING_DISABLED_OVER_INCOME_DEMO_1"
+      },
+      "policyContextId": "FRESH-047_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-047",
+    "county": "Cuyahoga",
+    "incomeStreams": {
+      "amount": "4000.000000",
+      "earned": true,
+      "incomeId": "FRESH-047_INC1",
+      "incomeType": "WAGES_SALARY",
+      "personId": "FRESH-047_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-047_RES1",
+      "personId": "FRESH-047_P1",
+      "value": "5000.000000",
+      "resourceType": "bankAccount"
+    },
+    "state": "Ohio",
+    "households": {
+      "householdId": "FRESH-047_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-10",
+    "policyContextId": "FRESH-047_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-048_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": true,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-048_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Violet",
+        "lastName": "Holmes",
+        "dateOfBirth": "2011-07-13",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Oregon",
+      "statePathways": {
+        "canonicalPatternId": "FOSTER_CARE_ADOPTION_GUARDIAN",
+        "state": "Oregon",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_048_OR_FOSTER_CARE_ADOPTION_GUARDIAN_CURRENT_DEMO_1",
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-048_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-048",
+    "county": "Washington",
+    "state": "Oregon",
+    "households": {
+      "householdId": "FRESH-048_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-03-24",
+    "incomeStreams": {
+      "amount": "0.000000",
+      "earned": false,
+      "incomeId": "FRESH-048_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-048_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-048_RES1",
+      "personId": "FRESH-048_P1",
+      "value": "284.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-048_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-049_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": false,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": true,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-049_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Eli",
+        "lastName": "Rice",
+        "dateOfBirth": "2017-03-11",
+        "maritalStatus": "Never married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": false,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "Oregon",
+      "statePathways": {
+        "canonicalPatternId": "FOSTER_CARE_ADOPTION_GUARDIAN",
+        "state": "Oregon",
+        "benefitScope": "FULL_MEDICAID",
+        "stateProgramCode": "FRESH_049_OR_FOSTER_CARE_ADOPTION_GUARDIAN_TITLE_IVE_DEMO_1",
+        "resourceTestApplies": false,
+        "waiversEnabled": true
+      },
+      "policyContextId": "FRESH-049_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-049",
+    "county": "Washington",
+    "state": "Oregon",
+    "households": {
+      "householdId": "FRESH-049_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-07",
+    "incomeStreams": {
+      "amount": "0.000000",
+      "earned": false,
+      "incomeId": "FRESH-049_INC1",
+      "incomeType": "OTHER",
+      "personId": "FRESH-049_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-049_RES1",
+      "personId": "FRESH-049_P1",
+      "value": "284.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-049_PC1"
+  },
+  {
+    "persons": {
+      "householdId": "FRESH-050_HH1",
+      "residency": {
+        "stateResident": true,
+        "countyResident": true
+      },
+      "relationToPolicyholder": "Self",
+      "disability": {
+        "blind": false,
+        "disabled": false
+      },
+      "pregnancy": {
+        "status": "not pregnant"
+      },
+      "programIndicator": {
+        "activeBreastOrCervicalCancer": false,
+        "activeTbRequiringTreatment": false,
+        "currentFosterCare": false,
+        "eligibleForMedicareCostSharingAssistance": true,
+        "formerFosterCare": false,
+        "inFosterCareAtAge18OrAgingOut": false,
+        "institutionalized": false,
+        "isParentOrCaretaker": false,
+        "receivesTitleIVE": false,
+        "requiresInstitutionalCare": false,
+        "ssiRecipient": false,
+        "ssiStatus": null
+      },
+      "personId": "FRESH-050_P1",
+      "employment": {
+        "studentStatus": "NOT_A_STUDENT",
+        "employed": false
+      },
+      "demographic": {
+        "firstName": "Bella",
+        "lastName": "Robertson",
+        "dateOfBirth": "1950-04-10",
+        "maritalStatus": "Married"
+      }
+    },
+    "policyContexts": {
+      "fPLTable": {
+        "stateGroup": "48_STATES_DC",
+        "householdSize": 1,
+        "fplYear": 2026,
+        "annualFPL": "15650.000000"
+      },
+      "waiversEnabled": true,
+      "expansionState": true,
+      "medicallyNeedyEnabled": true,
+      "effectiveStart": "2026-01-01",
+      "resourceTestApplies": false,
+      "fplYear": 2026,
+      "state": "California",
+      "statePathways": [
+        {
+          "canonicalPatternId": "ABD_SSI_RELATED",
+          "state": "California",
+          "benefitScope": "FULL_MEDICAID",
+          "stateProgramCode": "FRESH_050_CA_ABD_AGED_DEMO_1",
+          "coverageGroupType": "AGED_OR_DISABLED",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": false,
+            "appliesToPopulation": "AGED_OR_DISABLED",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "75.000000",
+            "priority": 1,
+            "appliesToAgeCategory": "Age 65-125"
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        },
+        {
+          "canonicalPatternId": "MSP",
+          "state": "California",
+          "benefitScope": "COST_SHARING_ASSISTANCE",
+          "stateProgramCode": "FRESH_050_CA_MSP_QMB_OVERLAP_DEMO_2",
+          "coverageGroupType": "MEDICARE_BENEFICIARY",
+          "canonicalSubPathway": "MSP_QMB",
+          "incomeThreshold": {
+            "incomeLowerBoundApplies": true,
+            "appliesToPopulation": "MEDICARE_BENEFICIARY",
+            "appliesToHouseholdType": "medicaidHousehold",
+            "incomeUpperBoundApplies": true,
+            "minFPLPercent": "0.000000",
+            "maxFPLPercent": "100.000000",
+            "priority": 1
+          },
+          "resourceTestApplies": false,
+          "waiversEnabled": true
+        }
+      ],
+      "policyContextId": "FRESH-050_PC1",
+      "effectiveEnd": null,
+      "policyVersionLabel": "2026.demo"
+    },
+    "caseId": "FRESH-050",
+    "county": "Los Angeles",
+    "state": "California",
+    "households": {
+      "householdId": "FRESH-050_HH1",
+      "householdType": "medicaidHousehold"
+    },
+    "determinationType": "INITIAL_APPLICATION",
+    "applicationDate": "2026-04-21",
+    "incomeStreams": {
+      "amount": "800.000000",
+      "earned": false,
+      "incomeId": "FRESH-050_INC1",
+      "incomeType": "SOCIAL_SECURITY_RETIREMENT_OASDI",
+      "personId": "FRESH-050_P1",
+      "excludedFromMAGI": false,
+      "frequency": "MONTHLY"
+    },
+    "resources": {
+      "excluded": false,
+      "resourceId": "FRESH-050_RES1",
+      "personId": "FRESH-050_P1",
+      "value": "1800.000000",
+      "resourceType": "bankAccount"
+    },
+    "policyContextId": "FRESH-050_PC1"
+  }
+]
