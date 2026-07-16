@@ -1,0 +1,133 @@
+[{
+    "programInformation": {
+        "authorizedUsesDescription": "For transportation to a public school that is different from the student's assigned school.",
+        "administeringSfo": "Step Up For Students",
+        "currentAvailableFunds": "50000.000000",
+        "isProgramCurrentlyAtCapacity": false,
+        "programName": "Florida's Transportation Stipend",
+        "programCreationYear": 2024,
+        "expenditureReportingRequired": false,
+        "programFundingIsLimited": true,
+        "programReplaces": "Transportation Scholarships within the Family Empowerment Scholarship (FES) and Florida Tax Credit Scholarship (FTC) programs.",
+        "dataSecurityAdvisory": "Step Up For Students will never ask for full account password..."
+    },
+    "applicationDetails": {
+        "applicableSchoolYear": "2024-25",
+        "applicationProcessingStatus": null,
+        "parentalResponsibilitiesAcknowledgement": {
+            "ackResponsibleForTransportationExpensesInExcessOfStipend": true,
+            "ackSubmitApplicationBySfoDeadline": true,
+            "ackNoDuplicateBillingForServices": true,
+            "ackProvideEligibilityVerificationDocumentation": true
+        },
+        "dataConfidentialityAcknowledgement": {"ackNoSharingOfLoginCredentials": true},
+        "stipendDeclineInformation": {
+            "hasBeenEffectivelyDeclined": false,
+            "userRequestsDecline": false
+        },
+        "householdStipendDetails": {
+            "stipendAmountAwardedThisApplication": "0.000000",
+            "paymentSentToMailingAddress": false,
+            "expectedDisbursementTimeframe": null,
+            "isDisbursed": false,
+            "stipendAmountPotentiallyAwarded": "750.000000",
+            "disbursementNotificationEmailSent": false,
+            "isHouseholdDeterminedEligible": false,
+            "paymentType": "check"
+        },
+        "isStipendPaidForThisApplication": false,
+        "fundingPriorityCategory": null,
+        "applicationId": "APP-2025-00201",
+        "submissionTimestamp": "2024-09-01T09:15:00Z"
+    },
+    "parentGuardianInfo": {
+        "historicalHouseholdData": [
+            {
+                "wasStipendAwardedThisHousehold": true,
+                "schoolYear": "2023-24",
+                "studentsPreviouslyApplied": {
+                    "receivedFES_FTC_Transportation2023_24": true,
+                    "studentIdInEma": "STU-EMA-007"
+                }
+            },
+            {
+                "wasStipendAwardedThisHousehold": false,
+                "schoolYear": "2024-25"
+            }
+        ],
+        "profile": {
+            "firstName": "Michael",
+            "lastName": "Chen",
+            "emailAddress": "michael.chen@example.com",
+            "phoneNumber": "555-222-3333",
+            "mailingAddress": {
+                "zipCode": "32601",
+                "city": "Gainesville",
+                "street": "789 Innovation Drive",
+                "state": "FL"
+            },
+            "physicalAddress": {
+                "zipCode": "32601",
+                "city": "Gainesville",
+                "street": "789 Innovation Drive",
+                "state": "FL"
+            }
+        },
+        "emaAccountId": "PG-ACCT-810",
+        "contactInformationUpdateResponsibilityAcknowledged": true
+    },
+    "studentsInfo": [
+        {
+            "firstName": "Sophia",
+            "lastName": "Chen",
+            "gradeLevel": "3",
+            "qualifyingSchoolEnrollmentDetails": {
+                "qualifyingSchoolType": "charter_school",
+                "schoolAddress": "123 Academy Rd, Gainesville, FL 32607",
+                "isNonVirtualPublicSchool": true,
+                "schoolName": "Gainesville Scholars Academy",
+                "isDifferentFromAssignedSchool": true
+            },
+            "participatingInOtherConflictingK12Scholarship": false,
+            "enrollmentVerificationDocumentDetails": {
+                "requiredDocumentContent": {
+                    "includesCurrentEnrollmentStatus": true,
+                    "includesSchoolYear": true,
+                    "includesSchoolName": true,
+                    "includesSchoolAddress": true,
+                    "includesStudentName": true
+                },
+                "documentTypeSubmitted": "public_school_report_card_copy",
+                "uploadedDocumentReferenceUri": "uri://docs/enrollment_sophia_chen.pdf"
+            },
+            "studentIdInEma": "STU-EMA-007",
+            "isStudentEligibleThisApplication": true
+        },
+        {
+            "firstName": "Ethan",
+            "lastName": "Chen",
+            "gradeLevel": "PK",
+            "qualifyingSchoolEnrollmentDetails": {
+                "qualifyingSchoolType": "charter_school",
+                "schoolAddress": "456 Blossom St, Gainesville, FL 32608",
+                "isNonVirtualPublicSchool": true,
+                "schoolName": "Little Sprouts Early Learning",
+                "isDifferentFromAssignedSchool": true
+            },
+            "participatingInOtherConflictingK12Scholarship": false,
+            "enrollmentVerificationDocumentDetails": {
+                "requiredDocumentContent": {
+                    "includesCurrentEnrollmentStatus": true,
+                    "includesSchoolYear": true,
+                    "includesSchoolName": true,
+                    "includesSchoolAddress": false,
+                    "includesStudentName": true
+                },
+                "documentTypeSubmitted": "informal_teacher_note",
+                "uploadedDocumentReferenceUri": "uri://docs/enrollment_ethan_chen.txt"
+            },
+            "studentIdInEma": "STU-EMA-008",
+            "isStudentEligibleThisApplication": true
+        }
+    ]
+}]

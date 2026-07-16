@@ -1,0 +1,101 @@
+[{
+    "programInformation": {
+        "authorizedUsesDescription": "For transportation to a public school that is different from the student's assigned school.",
+        "administeringSfo": "Step Up For Students",
+        "currentAvailableFunds": "75000.000000",
+        "isProgramCurrentlyAtCapacity": false,
+        "programName": "Florida's Transportation Stipend",
+        "programCreationYear": 2024,
+        "expenditureReportingRequired": false,
+        "programFundingIsLimited": true,
+        "programReplaces": "Transportation Scholarships within the Family Empowerment Scholarship (FES) and Florida Tax Credit Scholarship (FTC) programs.",
+        "dataSecurityAdvisory": "Step Up For Students will never ask for full account password..."
+    },
+    "applicationDetails": {
+        "applicableSchoolYear": "2024-25",
+        "applicationProcessingStatus": null,
+        "parentalResponsibilitiesAcknowledgement": {
+            "ackResponsibleForTransportationExpensesInExcessOfStipend": true,
+            "ackSubmitApplicationBySfoDeadline": true,
+            "ackNoDuplicateBillingForServices": true,
+            "ackProvideEligibilityVerificationDocumentation": true
+        },
+        "dataConfidentialityAcknowledgement": {"ackNoSharingOfLoginCredentials": true},
+        "stipendDeclineInformation": {
+            "hasBeenEffectivelyDeclined": false,
+            "userRequestsDecline": false
+        },
+        "householdStipendDetails": {
+            "stipendAmountAwardedThisApplication": "0.000000",
+            "paymentSentToMailingAddress": false,
+            "expectedDisbursementTimeframe": null,
+            "isDisbursed": false,
+            "stipendAmountPotentiallyAwarded": "750.000000",
+            "disbursementNotificationEmailSent": false,
+            "isHouseholdDeterminedEligible": false,
+            "paymentType": "check"
+        },
+        "isStipendPaidForThisApplication": false,
+        "fundingPriorityCategory": null,
+        "applicationId": "APP-2025-00315",
+        "submissionTimestamp": "2024-09-05T14:20:00Z"
+    },
+    "parentGuardianInfo": {
+        "historicalHouseholdData": [
+            {
+                "wasStipendAwardedThisHousehold": false,
+                "schoolYear": "2023-24"
+            },
+            {
+                "wasStipendAwardedThisHousehold": false,
+                "schoolYear": "2024-25"
+            }
+        ],
+        "profile": {
+            "firstName": "Isabella",
+            "lastName": "Rodriguez",
+            "emailAddress": "isabella.r@example.com",
+            "phoneNumber": "555-444-5555",
+            "mailingAddress": {
+                "zipCode": "33101",
+                "city": "Miami",
+                "street": "456 Palm Tree Lane",
+                "state": "FL"
+            },
+            "physicalAddress": {
+                "zipCode": "33101",
+                "city": "Miami",
+                "street": "456 Palm Tree Lane",
+                "state": "FL"
+            }
+        },
+        "emaAccountId": "PG-ACCT-920",
+        "contactInformationUpdateResponsibilityAcknowledged": true
+    },
+    "studentsInfo": {
+        "firstName": "Mateo",
+        "lastName": "Rodriguez",
+        "gradeLevel": "2",
+        "qualifyingSchoolEnrollmentDetails": {
+            "qualifyingSchoolType": "district_school_of_choice",
+            "schoolAddress": "789 Education Way, Miami, FL 33122",
+            "isNonVirtualPublicSchool": true,
+            "schoolName": "Sunshine State Elementary",
+            "isDifferentFromAssignedSchool": true
+        },
+        "participatingInOtherConflictingK12Scholarship": false,
+        "enrollmentVerificationDocumentDetails": {
+            "requiredDocumentContent": {
+                "includesCurrentEnrollmentStatus": true,
+                "includesSchoolYear": true,
+                "includesSchoolName": true,
+                "includesSchoolAddress": true,
+                "includesStudentName": true
+            },
+            "documentTypeSubmitted": "public_school_report_card_copy",
+            "uploadedDocumentReferenceUri": "uri://docs/enrollment_mateo_rodriguez.pdf"
+        },
+        "studentIdInEma": "STU-EMA-009",
+        "isStudentEligibleThisApplication": true
+    }
+}]

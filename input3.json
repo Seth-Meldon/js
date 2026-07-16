@@ -1,0 +1,133 @@
+[{
+    "programInformation": {
+        "authorizedUsesDescription": "For transportation to a public school that is different from the student's assigned school.",
+        "administeringSfo": "Step Up For Students",
+        "currentAvailableFunds": "1000.000000",
+        "isProgramCurrentlyAtCapacity": false,
+        "programName": "Florida's Transportation Stipend",
+        "programCreationYear": 2024,
+        "expenditureReportingRequired": false,
+        "programFundingIsLimited": true,
+        "programReplaces": "Transportation Scholarships within the Family Empowerment Scholarship (FES) and Florida Tax Credit Scholarship (FTC) programs.",
+        "dataSecurityAdvisory": "Step Up For Students will never ask for full account password..."
+    },
+    "applicationDetails": {
+        "applicableSchoolYear": "2024-25",
+        "applicationProcessingStatus": null,
+        "parentalResponsibilitiesAcknowledgement": {
+            "ackResponsibleForTransportationExpensesInExcessOfStipend": true,
+            "ackSubmitApplicationBySfoDeadline": true,
+            "ackNoDuplicateBillingForServices": true,
+            "ackProvideEligibilityVerificationDocumentation": true
+        },
+        "dataConfidentialityAcknowledgement": {"ackNoSharingOfLoginCredentials": true},
+        "stipendDeclineInformation": {
+            "hasBeenEffectivelyDeclined": false,
+            "userRequestsDecline": true
+        },
+        "householdStipendDetails": {
+            "stipendAmountAwardedThisApplication": "0.000000",
+            "paymentSentToMailingAddress": false,
+            "expectedDisbursementTimeframe": null,
+            "isDisbursed": false,
+            "stipendAmountPotentiallyAwarded": "750.000000",
+            "disbursementNotificationEmailSent": false,
+            "isHouseholdDeterminedEligible": false,
+            "paymentType": "check"
+        },
+        "isStipendPaidForThisApplication": false,
+        "fundingPriorityCategory": null,
+        "applicationId": "APP-2025-00123",
+        "submissionTimestamp": "2024-08-15T10:30:00Z"
+    },
+    "parentGuardianInfo": {
+        "historicalHouseholdData": [
+            {
+                "wasStipendAwardedThisHousehold": true,
+                "schoolYear": "2023-24",
+                "studentsPreviouslyApplied": {
+                    "receivedFES_FTC_Transportation2023_24": true,
+                    "studentIdInEma": "STU-EMA-001"
+                }
+            },
+            {
+                "wasStipendAwardedThisHousehold": true,
+                "schoolYear": "2024-25"
+            }
+        ],
+        "profile": {
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "emailAddress": "jane.doe@example.com",
+            "phoneNumber": "555-123-4567",
+            "mailingAddress": {
+                "zipCode": "32802",
+                "city": "Orlando",
+                "street": "P.O. Box 100",
+                "state": "FL"
+            },
+            "physicalAddress": {
+                "zipCode": "32801",
+                "city": "Orlando",
+                "street": "123 Main St",
+                "state": "FL"
+            }
+        },
+        "emaAccountId": "PG-ACCT-789",
+        "contactInformationUpdateResponsibilityAcknowledged": true
+    },
+    "studentsInfo": [
+        {
+            "firstName": "John",
+            "lastName": "Doe",
+            "gradeLevel": "5",
+            "qualifyingSchoolEnrollmentDetails": {
+                "qualifyingSchoolType": "magnet_school",
+                "schoolAddress": "456 Learning Ln, Orlando, FL 32803",
+                "isNonVirtualPublicSchool": true,
+                "schoolName": "Orlando Magnet School of Choice",
+                "isDifferentFromAssignedSchool": true
+            },
+            "participatingInOtherConflictingK12Scholarship": false,
+            "enrollmentVerificationDocumentDetails": {
+                "requiredDocumentContent": {
+                    "includesCurrentEnrollmentStatus": true,
+                    "includesSchoolYear": true,
+                    "includesSchoolName": true,
+                    "includesSchoolAddress": true,
+                    "includesStudentName": true
+                },
+                "documentTypeSubmitted": "public_school_report_card_copy",
+                "uploadedDocumentReferenceUri": "uri://docs/enrollment_john_doe.pdf"
+            },
+            "studentIdInEma": "STU-EMA-001",
+            "isStudentEligibleThisApplication": true
+        },
+        {
+            "firstName": "Alice",
+            "lastName": "Smith",
+            "gradeLevel": "9",
+            "qualifyingSchoolEnrollmentDetails": {
+                "qualifyingSchoolType": "charter_school",
+                "schoolAddress": "789 Future Rd, Kissimmee, FL 34741",
+                "isNonVirtualPublicSchool": true,
+                "schoolName": "Innovation Charter High",
+                "isDifferentFromAssignedSchool": true
+            },
+            "participatingInOtherConflictingK12Scholarship": true,
+            "enrollmentVerificationDocumentDetails": {
+                "requiredDocumentContent": {
+                    "includesCurrentEnrollmentStatus": false,
+                    "includesSchoolYear": true,
+                    "includesSchoolName": true,
+                    "includesSchoolAddress": true,
+                    "includesStudentName": true
+                },
+                "documentTypeSubmitted": "online_grade_portal_printout_or_screenshot",
+                "uploadedDocumentReferenceUri": "uri://docs/enrollment_alice_smith.png"
+            },
+            "studentIdInEma": "STU-EMA-002",
+            "isStudentEligibleThisApplication": true
+        }
+    ]
+}]

@@ -1,0 +1,923 @@
+{
+   "vocabulary": {
+      "associations": [
+         {
+            "entityTwo": "ApplicationDetails",
+            "entityOne": "Application",
+            "entityOneToTwoRoleName": "applicationDetails",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "ParentGuardianInfo",
+            "entityOne": "Application",
+            "entityOneToTwoRoleName": "parentGuardianInfo",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "ProgramInformation",
+            "entityOne": "Application",
+            "entityOneToTwoRoleName": "programInformation",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "StudentsInfo",
+            "entityOne": "Application",
+            "entityOneToTwoRoleName": "studentsInfo",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->*"
+         },
+         {
+            "entityTwo": "HouseholdStipendDetails",
+            "entityOne": "ApplicationDetails",
+            "entityOneToTwoRoleName": "householdStipendDetails",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "ProcessingStatusDetails",
+            "entityOne": "ApplicationDetails",
+            "entityOneToTwoRoleName": "processingStatusDetails",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->*"
+         },
+         {
+            "entityTwo": "StipendDeclineInformation",
+            "entityOne": "ApplicationDetails",
+            "entityOneToTwoRoleName": "stipendDeclineInformation",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "RequiredDocumentContent",
+            "entityOne": "EnrollmentVerificationDocumentDetails",
+            "entityOneToTwoRoleName": "requiredDocumentContent",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "HistoricalHouseholdData",
+            "entityOne": "ParentGuardianInfo",
+            "entityOneToTwoRoleName": "historicalHouseholdData",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->*"
+         },
+         {
+            "entityTwo": "Profile",
+            "entityOne": "ParentGuardianInfo",
+            "entityOneToTwoRoleName": "profile",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "EnrollmentVerificationDocumentDetails",
+            "entityOne": "StudentsInfo",
+            "entityOneToTwoRoleName": "enrollmentVerificationDocumentDetails",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         },
+         {
+            "entityTwo": "QualifyingSchoolEnrollmentDetails",
+            "entityOne": "StudentsInfo",
+            "entityOneToTwoRoleName": "qualifyingSchoolEnrollmentDetails",
+            "navigability": "entityOne -> entityTwo",
+            "cardinality": "1->1"
+         }
+      ],
+      "entities": [
+         {
+            "name": "Application",
+            "attributes": []
+         },
+         {
+            "name": "ApplicationDetails",
+            "attributes": [
+               {
+                  "datatype": "String",
+                  "name": "applicableSchoolYear"
+               },
+               {
+                  "datatype": "ApplicationProcessingStatusEnumeration",
+                  "name": "applicationProcessingStatus"
+               },
+               {
+                  "datatype": "String",
+                  "name": "fundingPriorityCategory"
+               },
+               {
+                  "datatype": "Boolean",
+                  "name": "isStipendPaidForThisApplication"
+               }
+            ]
+         },
+         {
+            "name": "EnrollmentVerificationDocumentDetails",
+            "attributes": [{
+               "datatype": "String",
+               "name": "documentTypeSubmitted"
+            }]
+         },
+         {
+            "name": "ParentGuardianInfo",
+            "attributes": []
+         },
+         {
+            "name": "Profile",
+            "attributes": [
+               {
+                  "datatype": "String",
+                  "name": "emailAddress"
+               },
+               {
+                  "datatype": "String",
+                  "name": "firstName"
+               },
+               {
+                  "datatype": "String",
+                  "name": "lastName"
+               },
+               {
+                  "datatype": "String",
+                  "name": "phoneNumber"
+               }
+            ]
+         },
+         {
+            "name": "RequiredDocumentContent",
+            "attributes": [
+               {
+                  "datatype": "Boolean",
+                  "name": "includesCurrentEnrollmentStatus"
+               },
+               {
+                  "datatype": "Boolean",
+                  "name": "includesSchoolAddress"
+               },
+               {
+                  "datatype": "Boolean",
+                  "name": "includesSchoolName"
+               },
+               {
+                  "datatype": "Boolean",
+                  "name": "includesSchoolYear"
+               },
+               {
+                  "datatype": "Boolean",
+                  "name": "includesStudentName"
+               }
+            ]
+         },
+         {
+            "name": "StudentsInfo",
+            "attributes": [
+               {
+                  "datatype": "String",
+                  "name": "gradeLevel"
+               },
+               {
+                  "datatype": "Boolean",
+                  "name": "isStudentEligibleThisApplication"
+               },
+               {
+                  "datatype": "Boolean",
+                  "name": "participatingInOtherConflictingK12Scholarship"
+               }
+            ]
+         }
+      ],
+      "customDatatypes": [
+         {
+            "datatype": "String",
+            "values": [
+               {
+                  "label": "submitted",
+                  "value": "'submitted'"
+               },
+               {
+                  "label": "on_hold",
+                  "value": "'on_hold'"
+               },
+               {
+                  "label": "awarded",
+                  "value": "'awarded'"
+               },
+               {
+                  "label": "ineligible",
+                  "value": "'ineligible'"
+               },
+               {
+                  "label": "at_capacity",
+                  "value": "'at_capacity'"
+               },
+               {
+                  "label": "declined_by_user",
+                  "value": "'declined_by_user'"
+               }
+            ],
+            "name": "ApplicationProcessingStatusEnumeration"
+         },
+         {
+            "datatype": "String",
+            "values": [
+               {
+                  "label": "priority_2023_24_FES_FTC_transportation_recipient",
+                  "value": "'priority_2023_24_FES_FTC_transportation_recipient'"
+               },
+               {
+                  "label": "priority_renewing_household_2025_26_onwards",
+                  "value": "'priority_renewing_household_2025_26_onwards'"
+               },
+               {
+                  "label": "standard_first_come_first_served",
+                  "value": "'standard_first_come_first_served'"
+               },
+               {
+                  "label": "not_applicable",
+                  "value": "'not_applicable'"
+               }
+            ],
+            "name": "FundingPriorityCategoryEnumeration"
+         },
+         {
+            "datatype": "String",
+            "values": [{
+               "label": "FL",
+               "value": "'FL'"
+            }],
+            "name": "StateEnumeration"
+         },
+         {
+            "datatype": "String",
+            "values": [
+               {
+                  "label": "K",
+                  "value": "'K'"
+               },
+               {
+                  "label": "1",
+                  "value": "'1'"
+               },
+               {
+                  "label": "2",
+                  "value": "'2'"
+               },
+               {
+                  "label": "3",
+                  "value": "'3'"
+               },
+               {
+                  "label": "4",
+                  "value": "'4'"
+               },
+               {
+                  "label": "5",
+                  "value": "'5'"
+               },
+               {
+                  "label": "6",
+                  "value": "'6'"
+               },
+               {
+                  "label": "7",
+                  "value": "'7'"
+               },
+               {
+                  "label": "8",
+                  "value": "'8'"
+               }
+            ],
+            "name": "GradeLevelEnumeration"
+         },
+         {
+            "datatype": "String",
+            "values": [
+               {
+                  "label": "magnet_school",
+                  "value": "'magnet_school'"
+               },
+               {
+                  "label": "district_school_of_choice",
+                  "value": "'district_school_of_choice'"
+               },
+               {
+                  "label": "charter_school",
+                  "value": "'charter_school'"
+               },
+               {
+                  "label": "developmental_research_school",
+                  "value": "'developmental_research_school'"
+               },
+               {
+                  "label": "district_open_enrollment_policy_school",
+                  "value": "'district_open_enrollment_policy_school'"
+               }
+            ],
+            "name": "QualifyingSchoolTypeEnumeration"
+         },
+         {
+            "datatype": "String",
+            "values": [
+               {
+                  "label": "public_school_progress_report_copy",
+                  "value": "'public_school_progress_report_copy'"
+               },
+               {
+                  "label": "public_school_report_card_copy",
+                  "value": "'public_school_report_card_copy'"
+               },
+               {
+                  "label": "online_grade_portal_printout_or_screenshot",
+                  "value": "'online_grade_portal_printout_or_screenshot'"
+               },
+               {
+                  "label": "school_letter_on_school_letterhead",
+                  "value": "'school_letter_on_school_letterhead'"
+               }
+            ],
+            "name": "DocumentTypeSubmittedEnumeration"
+         }
+      ]
+   },
+   "catalog": {
+      "ruleflows": [],
+      "serviceCallouts": [],
+      "rulesheets": [
+         {
+            "aliases": [
+               {
+                  "name": "processInfo",
+                  "type": "general",
+                  "entity": "Application.applicationDetails.processingStatusDetails"
+               },
+               {
+                  "name": "studentApps",
+                  "type": "general",
+                  "entity": "Application.studentsInfo"
+               },
+               {
+                  "name": "verificationDocs",
+                  "type": "general",
+                  "entity": "Application.studentsInfo.enrollmentVerificationDocumentDetails"
+               }
+            ],
+            "ccId": 1,
+            "rules": [
+               {
+                  "ruleId": "Rule_A0",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "submitted"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "Application.parentGuardianInfo.profile.emailAddress",
+                     "value": "null"
+                  }],
+                  "ruleId": "Rule_1",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "Application.parentGuardianInfo.profile.firstName",
+                     "value": "null"
+                  }],
+                  "ruleId": "Rule_2",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "Application.parentGuardianInfo.profile.lastName",
+                     "value": "null"
+                  }],
+                  "ruleId": "Rule_3",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "Application.parentGuardianInfo.profile.phoneNumber",
+                     "value": "null"
+                  }],
+                  "ruleId": "Rule_4",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Warning",
+                     "alias": "Application",
+                     "text": "Enrollment verification document details missing for one or more students."
+                  }],
+                  "conditions": [{
+                     "expression": "verificationDocs->isEmpty",
+                     "value": "T"
+                  }],
+                  "ruleId": "Rule_5",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Warning",
+                     "alias": "studentApps",
+                     "text": "Invalid enrollment verification document type submitted for one or more students."
+                  }],
+                  "conditions": [{
+                     "expression": "verificationDocs.documentTypeSubmitted",
+                     "value": "not {DocumentTypeSubmittedEnumeration#public_school_progress_report_copy, DocumentTypeSubmittedEnumeration#public_school_report_card_copy, DocumentTypeSubmittedEnumeration#online_grade_portal_printout_or_screenshot, DocumentTypeSubmittedEnumeration#school_letter_on_school_letterhead}"
+                  }],
+                  "ruleId": "Rule_6",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "verificationDocs.requiredDocumentContent.includesCurrentEnrollmentStatus",
+                     "value": "F"
+                  }],
+                  "ruleId": "Rule_7",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "verificationDocs.requiredDocumentContent.includesSchoolAddress",
+                     "value": "F"
+                  }],
+                  "ruleId": "Rule_8",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "verificationDocs.requiredDocumentContent.includesSchoolName",
+                     "value": "F"
+                  }],
+                  "ruleId": "Rule_9",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "verificationDocs.requiredDocumentContent.includesStudentName",
+                     "value": "F"
+                  }],
+                  "ruleId": "Rule_10",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "verificationDocs.requiredDocumentContent.includesSchoolYear",
+                     "value": "F"
+                  }],
+                  "ruleId": "Rule_11",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "on_hold"
+                  }]
+               }
+            ],
+            "ccName": "Application Data Validations"
+         },
+         {
+            "aliases": [
+               {
+                  "name": "appDetail",
+                  "type": "general",
+                  "entity": "Application.applicationDetails"
+               },
+               {
+                  "name": "studentInfo",
+                  "type": "general",
+                  "entity": "Application.studentsInfo"
+               }
+            ],
+            "ccId": 2,
+            "rules": [
+               {
+                  "ruleId": "Rule_A0",
+                  "actions": [{
+                     "expression": "studentInfo.isStudentEligibleThisApplication",
+                     "value": "T"
+                  }]
+               },
+               {
+                  "ruleId": "Rule_B0",
+                  "actions": [{
+                     "expression": "appDetail.householdStipendDetails.isHouseholdDeterminedEligible",
+                     "value": "F"
+                  }]
+               },
+               {
+                  "ruleId": "Rule_C0",
+                  "actions": [{
+                     "expression": "appDetail.applicationProcessingStatus",
+                     "value": "awarded"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "studentInfo",
+                     "text": "Student not in eligible grade K-8"
+                  }],
+                  "conditions": [{
+                     "expression": "studentInfo.gradeLevel",
+                     "value": "not {GradeLevelEnumeration#K, GradeLevelEnumeration#1, GradeLevelEnumeration#2, GradeLevelEnumeration#3, GradeLevelEnumeration#4, GradeLevelEnumeration#5, GradeLevelEnumeration#6, GradeLevelEnumeration#7, GradeLevelEnumeration#8}"
+                  }],
+                  "ruleId": "Rule_1",
+                  "actions": [{
+                     "expression": "studentInfo.isStudentEligibleThisApplication",
+                     "value": "F"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "studentInfo",
+                     "text": "Student not enrolled in a nonvirtual public school"
+                  }],
+                  "conditions": [{
+                     "expression": "studentInfo.qualifyingSchoolEnrollmentDetails.isNonVirtualPublicSchool",
+                     "value": "F"
+                  }],
+                  "ruleId": "Rule_2",
+                  "actions": [{
+                     "expression": "studentInfo.isStudentEligibleThisApplication",
+                     "value": "F"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "studentInfo",
+                     "text": "Student's chosen school is not different from their assigned school."
+                  }],
+                  "conditions": [{
+                     "expression": "studentInfo.qualifyingSchoolEnrollmentDetails.isDifferentFromAssignedSchool",
+                     "value": "F"
+                  }],
+                  "ruleId": "Rule_3",
+                  "actions": [{
+                     "expression": "studentInfo.isStudentEligibleThisApplication",
+                     "value": "F"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "studentInfo",
+                     "text": "Student's school type is not a qualifying type."
+                  }],
+                  "conditions": [{
+                     "expression": "studentInfo.qualifyingSchoolEnrollmentDetails.qualifyingSchoolType",
+                     "value": "not {QualifyingSchoolTypeEnumeration#magnet_school, QualifyingSchoolTypeEnumeration#district_school_of_choice, QualifyingSchoolTypeEnumeration#charter_school, QualifyingSchoolTypeEnumeration#developmental_research_school, QualifyingSchoolTypeEnumeration#district_open_enrollment_policy_school}"
+                  }],
+                  "ruleId": "Rule_4",
+                  "actions": [{
+                     "expression": "studentInfo.isStudentEligibleThisApplication",
+                     "value": "F"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "studentInfo",
+                     "text": "Student is participating in another conflicting Florida K-12 scholarship program."
+                  }],
+                  "conditions": [
+                     {
+                        "expression": "studentInfo.participatingInOtherConflictingK12Scholarship",
+                        "value": "T"
+                     },
+                     {
+                        "expression": "appDetail.applicationProcessingStatus",
+                        "value": "not null"
+                     }
+                  ],
+                  "ruleId": "Rule_5",
+                  "actions": [{
+                     "expression": "studentInfo.isStudentEligibleThisApplication",
+                     "value": "F"
+                  }]
+               },
+               {
+                  "conditions": [{
+                     "expression": "studentInfo.isStudentEligibleThisApplication",
+                     "value": "T"
+                  }],
+                  "ruleId": "Rule_6",
+                  "actions": [{
+                     "expression": "appDetail.householdStipendDetails.isHouseholdDeterminedEligible",
+                     "value": "T"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "appDetail",
+                     "text": "No students in the application meet eligibility criteria."
+                  }],
+                  "conditions": [
+                     {
+                        "expression": "appDetail.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "appDetail.householdStipendDetails.isHouseholdDeterminedEligible",
+                        "value": "F"
+                     }
+                  ],
+                  "ruleId": "Rule_7",
+                  "actions": [{
+                     "expression": "appDetail.applicationProcessingStatus",
+                     "value": "ineligible"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "appDetail",
+                     "text": "Application ineligible due to one or more students participating in a conflicting K-12 scholarship."
+                  }],
+                  "conditions": [
+                     {
+                        "expression": "studentInfo.participatingInOtherConflictingK12Scholarship",
+                        "value": "T"
+                     },
+                     {
+                        "expression": "appDetail.applicationProcessingStatus",
+                        "value": "null"
+                     }
+                  ],
+                  "ruleId": "Rule_8",
+                  "actions": [{
+                     "expression": "appDetail.applicationProcessingStatus",
+                     "value": "ineligible"
+                  }]
+               }
+            ],
+            "filters": [{"expression": "appDetail.applicationProcessingStatus <> 'on_hold'"}],
+            "ccName": "Eligibility"
+         },
+         {
+            "aliases": [{
+               "name": "pastApps",
+               "type": "general",
+               "entity": "Application.parentGuardianInfo.historicalHouseholdData"
+            }],
+            "ccId": 3,
+            "rules": [
+               {
+                  "rulestatements": [{
+                     "severity": "Violation",
+                     "alias": "Application",
+                     "text": "Household has already been awarded a stipend for this school year based on historical data."
+                  }],
+                  "conditions": [{
+                     "expression": "pastApps->exists(schoolYear=Application.applicationDetails.applicableSchoolYear and wasStipendAwardedThisHousehold=T)",
+                     "value": "T"
+                  }],
+                  "ruleId": "Rule_1",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "ineligible"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Warning",
+                     "alias": "Application",
+                     "text": "Program at Capacity"
+                  }],
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "Application.programInformation.isProgramCurrentlyAtCapacity",
+                        "value": "T"
+                     }
+                  ],
+                  "ruleId": "Rule_2",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "at_capacity"
+                  }]
+               },
+               {
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.applicableSchoolYear",
+                        "value": "'2024-25'"
+                     }
+                  ],
+                  "ruleId": "Rule_3",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.fundingPriorityCategory",
+                     "value": "FundingPriorityCategoryEnumeration#priority_2023_24_FES_FTC_transportation_recipient"
+                  }]
+               },
+               {
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.applicableSchoolYear.indexOf('2025')",
+                        "value": "1"
+                     }
+                  ],
+                  "ruleId": "Rule_4",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.fundingPriorityCategory",
+                     "value": "FundingPriorityCategoryEnumeration#priority_renewing_household_2025_26_onwards"
+                  }]
+               },
+               {
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.applicableSchoolYear.indexOf('2026')",
+                        "value": "1"
+                     }
+                  ],
+                  "ruleId": "Rule_5",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.fundingPriorityCategory",
+                     "value": "FundingPriorityCategoryEnumeration#priority_renewing_household_2025_26_onwards"
+                  }]
+               },
+               {
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.fundingPriorityCategory",
+                        "value": "null"
+                     }
+                  ],
+                  "ruleId": "Rule_6",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.fundingPriorityCategory",
+                     "value": "FundingPriorityCategoryEnumeration#standard_first_come_first_served"
+                  }]
+               },
+               {
+                  "rulestatements": [{
+                     "severity": "Warning",
+                     "alias": "Application",
+                     "text": "Insufficient funds to award stipend at this time."
+                  }],
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "Application.programInformation.currentAvailableFunds",
+                        "value": ">=Application.applicationDetails.householdStipendDetails.stipendAmountPotentiallyAwarded"
+                     }
+                  ],
+                  "ruleId": "Rule_7",
+                  "actions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "awarded"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.householdStipendDetails.stipendAmountAwardedThisApplication",
+                        "value": "Application.applicationDetails.householdStipendDetails.stipendAmountPotentiallyAwarded"
+                     }
+                  ]
+               },
+               {
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "null"
+                     },
+                     {
+                        "expression": "Application.programInformation.currentAvailableFunds",
+                        "value": "<Application.applicationDetails.householdStipendDetails.stipendAmountPotentiallyAwarded"
+                     }
+                  ],
+                  "ruleId": "Rule_8",
+                  "actions": [{
+                     "expression": "Application.applicationDetails.applicationProcessingStatus",
+                     "value": "at_capacity"
+                  }]
+               },
+               {
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "awarded"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.stipendDeclineInformation.userRequestsDecline",
+                        "value": "T"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.isStipendPaidForThisApplication",
+                        "value": "F"
+                     }
+                  ],
+                  "ruleId": "Rule_9",
+                  "actions": [
+                     {
+                        "expression": "Application.applicationDetails.applicationProcessingStatus",
+                        "value": "declined_by_user"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.householdStipendDetails.stipendAmountAwardedThisApplication",
+                        "value": "0"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.stipendDeclineInformation.hasBeenEffectivelyDeclined",
+                        "value": "T"
+                     }
+                  ]
+               },
+               {
+                  "conditions": [
+                     {
+                        "expression": "Application.applicationDetails.stipendDeclineInformation.userRequestsDecline",
+                        "value": "T"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.isStipendPaidForThisApplication",
+                        "value": "T"
+                     }
+                  ],
+                  "ruleId": "Rule_10",
+                  "actions": [
+                     {
+                        "expression": "Application.applicationDetails.stipendDeclineInformation.hasBeenEffectivelyDeclined",
+                        "value": "F"
+                     },
+                     {
+                        "expression": "Application.applicationDetails.processingStatusDetails.item",
+                        "value": "'Stipend cannot be declined as it has already been paid for this application.'"
+                     }
+                  ]
+               }
+            ],
+            "ccName": "Funding"
+         }
+      ],
+      "branches": [],
+      "subflows": []
+   },
+   "mainFlow": {"ruleNodes": [
+      {
+         "ccReference": 1,
+         "order": 1
+      },
+      {
+         "ccReference": 2,
+         "order": 2
+      },
+      {
+         "ccReference": 3,
+         "order": 3
+      }
+   ]}
+}
