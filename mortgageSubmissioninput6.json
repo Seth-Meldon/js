@@ -1,0 +1,121 @@
+[
+    {
+        "creditScore": 500,
+        "late90DaysSum": 1,
+        "cjDischMosLow": 294,
+        "borrower": {
+            "employer": [
+                {
+                    "employmentBorrowerSelfEmployedIndicator": "N",
+                    "employmentCurrentIndicator": "Y"
+                },
+                {
+                    "employmentBorrowerSelfEmployedIndicator": "Y",
+                    "employmentCurrentIndicator": "N"
+                }
+            ],
+            "declaration": {"intentToOccupyType": "Yes"}
+        },
+        "late30DaysSum": 0,
+        "fcDischMosLow": 300,
+        "ltv": "62.500000",
+        "additionalCaseData": {"transmittalData": {"propertyAppraisedValueAmount": "400000.000000"}},
+        "late60DaysSum": 0,
+        "bkDischMosLow": 276,
+        "property": {"titleCategoryType": "SingleFamily"},
+        "creditReqtMet": false,
+        "mortgageTerms": {"borrowerRequestedLoanAmount": "250000.000000"}
+    },
+    {"response": {"responseData": {"creditResponse": {
+        "creditLiability": [
+            {
+                "lastActivityDate": "2004-01-01",
+                "accountType": "CreditLine",
+                "highCreditAmount": "3000.000000"
+            },
+            {
+                "lastActivityDate": "2004-01-01",
+                "accountType": "CreditLine",
+                "highCreditAmount": "2000.000000"
+            },
+            {
+                "lastActivityDate": "2004-01-01",
+                "accountType": "CreditLine",
+                "highCreditAmount": "1000.000000"
+            },
+            {
+                "late90Days": 0,
+                "late60Days": 0,
+                "accountType": "Mortgage",
+                "lateCount": {
+                    "late120Days": 1,
+                    "late90Days": 0,
+                    "late60Days": 0,
+                    "late30Days": 0
+                },
+                "late30Days": 0
+            },
+            {
+                "late90Days": 1,
+                "late60Days": 0,
+                "accountType": "Mortgage",
+                "lateCount": {
+                    "late120Days": 0,
+                    "late90Days": 1,
+                    "late60Days": 0,
+                    "late30Days": 0
+                },
+                "late30Days": 0
+            }
+        ],
+        "creditScore": [
+            {"value": 500},
+            {"value": 540},
+            {"value": 525}
+        ],
+        "creditPublicRecord": [
+            {
+                "bkDischMos": 276,
+                "fcDischMos": 1000,
+                "dispositionDate": "2003-07-01",
+                "type": "BankruptcyChapter11",
+                "cjDischMos": 1000
+            },
+            {
+                "bkDischMos": 306,
+                "fcDischMos": 1000,
+                "dispositionDate": "2001-01-01",
+                "type": "BankruptcyChapter12",
+                "cjDischMos": 1000
+            },
+            {
+                "bkDischMos": 1000,
+                "fcDischMos": 300,
+                "dispositionDate": "2001-07-01",
+                "type": "Foreclosure",
+                "cjDischMos": 1000
+            },
+            {
+                "bkDischMos": 1000,
+                "fcDischMos": 312,
+                "dispositionDate": "2000-07-01",
+                "type": "Foreclosure",
+                "cjDischMos": 1000
+            },
+            {
+                "bkDischMos": 1000,
+                "fcDischMos": 1000,
+                "dispositionDate": "2002-01-01",
+                "type": "Collection",
+                "cjDischMos": 294
+            },
+            {
+                "bkDischMos": 1000,
+                "fcDischMos": 1000,
+                "dispositionDate": "2001-01-01",
+                "type": "Judgment",
+                "cjDischMos": 306
+            }
+        ]
+    }}}}
+]
